@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MuzakMaker</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>MuzakMaker</li>
+            <li><a href="#trending">Trending Songs</a></li>
+            <li><a href="#playlists">Your Playlists</a></li>
+            <li><a href="#curated">Curated Playlists</a></li>
+            <li><img src="images/duke-silver.png" alt=""></li>
+        </ul>
+    </nav>
     <header>
         <h1>Smooth Jazz</h1>
         <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
     </header>
-    <nav>
-        <ul>
-            <li>MuzakMaker</li>
-            <li><a href="#">Trending Songs</a></li>
-            <li>Your Playlists</li>
-            <li>Curated Playlists</li>
-            <li><img src="duke-silver.png" alt=""></li>
-        </ul>
-    </nav>
     <main>
         <section id="trending">
             <h2>Trending Songs</h2>
+            <section id="trendingSongs">
             <section>
                 <h3>Aloma</h3>
                 <dl>
@@ -72,11 +74,14 @@
                 <audio controls src="audio/successful-performance.mp3"></audio>
             </section>
 
-            <a href="#">More trending</a>
-
         </section>
+        <a href="#">More trending</a>
+        </section>
+
+        <section id="flex">
         <section id="playlists">
             <h2>Your Playlists</h2>
+            <section id="playlistsList">
             <section>
                 <img src="images/best-of-2020-cover.png" alt="">
                 <h3>Best of 2020</h3>
@@ -106,23 +111,24 @@
                 <h3>Smooth Study</h3>
                 <p>Background music to keep you going while you study.</p>
             </section> 
-            
-            
+            </section>
             <a href="#">All your playlists</a>
         </section>
+
         <section id="curated">
             <h2>Curated Playlists</h2>
+            <section id="curatedList">
             <section>
                 <img src="images/boozy-brunch-cover.png" alt="">
                 <h3>Boozy Brunch</h3>
                 <p>Light up the afternoon with these energetic hits.</p>
             </section>
             
-            <ssection>
+            <section>
                 <img src="images/dinner-party-cover.png" alt="">
                 <h3>Dinner Party</h3>
                 <p>Background music to give your party life, but allow your guests to chat.</p> 
-            </ssection>
+            </section>
             
             <section>
                 <img src="images/mellow-cover.png" alt="">
@@ -141,9 +147,11 @@
                 <h3>Jazz Saxophone</h3>
                 <p>The greatest collection of your sax favorites.</p>
             </section>
-            
+            </section>
             <a href="#">More curated</a>
         </section>
+    </section>
+
     </main>
     <footer>
         <p><small>Copyright 2022 Smooth Jazz</small></p>

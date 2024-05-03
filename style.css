@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+html{
+    background-color: #020659;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+main{
+    min-width: 375px;
+}
+header{
+    background-image: linear-gradient(to right, #030A8C , black);
+    padding: 20px;
+}
+h1{
+    font-size: 1.25em;
+    color: white;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+h2{
+    color: #590242;
+}
+h2, h3{
+    font-size: 1em;
+}
+p, dl, dd{
+    font-size: 1em;
+}
+header p{
+    color: white;
+}
+footer p{
+    font-size: .75em;
+}
+nav{
+    background-color: #020873;
+    text-align: center;
+    position: relative;
+    top: 0;
+    margin-bottom: 0;
+   
+}
+nav li{
+    
+    color: white;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 20px 20px;
+}
+nav li:first-child{
+    font-variant: small-caps;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    background-color: white;
+    margin-top: 0;
+}
+footer{
+    background-color: white;
+}
+
+#trendingSongs{
+    display: flex;
+    overflow: scroll;
+}
+
+#trendingSongs section{
+    margin: 10px;
+}
+
+#trending h3, dl{
+    background-color: white;
+    opacity: .75;
+    position: relative;
+    top: 312.5px;
+}
+
+
+#playlistsList{
+    background-color: #2699FB;
+    display: flex;
+    overflow: scroll;
+}
+#playlistsList section{
+    background-color: #0D8DFB;
+    margin: 10px;
+}
+#playlistsList h3, p{
+    display: inline-block;
+    color: white;
+}
+
+#curatedList{
+    background-color: #030A8C;
+    display: flex;
+    overflow: scroll;
+}
+#curatedList section{
+    background-color: #020873;
+    margin: 10px;
+}
+#curatedList h3, p{
+    display: inline-block;
+    color: white;
+}
+#trending a, #playlists a, #curated a{
+    background-color: #590242;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 834px) {
+    #flex{
+    display: flex;
+    justify-content: center;
+}
+
+#playlistList{
+    flex: 1;
+    overflow: scroll;
+}
+#curatedList{
+    flex: 2;
+    overflow: scroll;
+}
+
+}
