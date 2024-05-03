@@ -66,6 +66,7 @@ main{
 }
 footer{
     background-color: white;
+    color: black;
 }
 
 #trendingSongs{
@@ -118,19 +119,19 @@ footer{
     text-decoration: none;
 }
 
-@media screen and (min-width: 834px) {
-    #flex{
-    display: flex;
-    justify-content: center;
+@media screen and (min-width: 834px){
+#trending a{
+    float: right;
 }
-
-#playlistList{
-    flex: 1;
-    overflow: scroll;
+#flex{
+    display: flex;
+}
+#playlistsList{
+    display: block;
 }
 #curatedList{
+    display: block;
     flex: 2;
-    overflow: scroll;
 }
 
 }
